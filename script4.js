@@ -19,10 +19,3 @@ function done() {
     console.log("I did 3rd lesson!")
 }
 learnJS("JavaScript", done);
-
-()=>{}
-function(){}
-function name(){}
-setTimeout(
-
-)
