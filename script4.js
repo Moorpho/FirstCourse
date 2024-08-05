@@ -1,8 +1,9 @@
-function first(
-    setTimeout(() => {
-        
-    }, timeout);
-)
+function first(){
+    setTimeout(function(){
+        console.log(1);
+    },500);
+}
+
 
 function second() {
     console.log(2);
@@ -19,3 +20,4 @@ function done() {
     console.log("I did 3rd lesson!")
 }
 learnJS("JavaScript", done);
+
