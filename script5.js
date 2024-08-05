@@ -18,13 +18,22 @@ for (let key in options) {
 
 console.log(Object.keys(options).length)
 
-let arr = [1,2,3,4,5];
-arr[99] = 99;
-
-for (let i = 0; i < arr.length;i++) {
-    console.log(arr[i]);
-}
+let arr = ["first",2,3,"four",5];
 
 console.log(arr);
 
-let a = 5;
+// for (let i = 0; i < arr.length;i++) {
+//     console.log(arr[i]);
+// }
+
+arr.forEach(function(item, i, mass){
+    console.log(i + ':' + item + "(array: " + mass + ")")
+})
+
+console.log(arr);
+
+let mass = [1,3,4,6,7];
+
+ for (let key of mass) {
+    console.log(key);
+ }
