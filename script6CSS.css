@@ -1,0 +1,15 @@
+.box {
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(0, 0, 0);
+
+      }
+
+.smallBox {
+        width: 15px;
+        height: 15px;
+        background-color: pink;
+        padding: 10px;
+        margin: 265px;
+          }
+
