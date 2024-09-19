@@ -14,7 +14,7 @@
 // var secondDistance = calculateDistance(5,1,2);
 // console.log(firstDistance,secondDistance);
 
-var buySomeBread  = function(eggs){
+/*var buySomeBread  = function(eggs){
 //  if (eggs ) {
 //     return 10;
 //  } else {
@@ -23,4 +23,21 @@ var buySomeBread  = function(eggs){
 
 return eggs ? 10 : 1;
 };
-console.log(buySomeBread(false));
+console.log(buySomeBread(false));*/
+
+var washNextItem = function(itemsLeft) {
+    itemsLeft--;
+    console.log('Left in the sink ' + itemsLeft + 'things');
+
+    if (itemsLeft > 0) {
+        washNextItem(itemsLeft);
+    }
+};
+
+washNextItem(10);
+
+
+
+
+
+
